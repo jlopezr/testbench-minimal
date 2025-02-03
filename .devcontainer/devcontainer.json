@@ -1,0 +1,17 @@
+{
+    "name": "C Project",
+    "image": "gcc:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools",
+                "ms-vscode.makefile-tools"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        },
+        "remoteUser": "vscode"
+    }
+}
