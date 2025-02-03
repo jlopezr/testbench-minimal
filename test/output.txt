@@ -1,0 +1,1 @@
+Ingrese la masa del satélite (kg): Ingrese la distancia del satélite al centro de la Tierra (m): La energía orbital total del satélite es: -2.85e+10 Joules
