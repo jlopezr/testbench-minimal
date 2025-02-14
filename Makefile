@@ -1,11 +1,9 @@
 CC=gcc
-CFLAGS=-Wall -Wextra -Werror -std=c99 -pedantic -g
+CFLAGS=-Wall -Wextra -Werror -std=c99 -pedantic -g -fdiagnostics-format=json
 
 SRCS=$(wildcard *.c)
 OBJS=$(SRCS:.c=.o)
 ERRORS=errors.json
-
-export GCC_DIAGNOSTIC_FORMAT = json
 
 all: main
 
